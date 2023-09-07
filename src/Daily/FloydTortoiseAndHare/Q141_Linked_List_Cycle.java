@@ -32,6 +32,8 @@ Explanation: There is no cycle in the linked list.
 
  */
 
+import Entity.ListNode;
+
 public class Q141_Linked_List_Cycle {
     public boolean hasCycle(ListNode head) {
         ListNode fast = head;
