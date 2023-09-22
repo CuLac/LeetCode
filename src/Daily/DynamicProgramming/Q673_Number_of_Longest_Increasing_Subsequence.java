@@ -52,9 +52,4 @@ public class Q673_Number_of_Longest_Increasing_Subsequence {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        int[] arr = {1,3,5,4,7};
-        System.out.println(new Gson().toJson(findNumberOfLIS(arr)));
-    }
 }

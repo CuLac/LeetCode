@@ -60,9 +60,4 @@ public class Q2483_Minimum_Penalty_for_a_Shop {
         }
         return closeTime+1;
     }
-
-    public static void main(String[] args) {
-        String s = "YYNY";
-        System.out.println(bestClosingTime(s));
-    }
 }

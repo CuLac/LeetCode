@@ -54,10 +54,4 @@ public class Q735_Asteroid_Collision {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        Gson gson = new Gson();
-        int[] arr = {-2,-1,1,2};
-        System.out.println(gson.toJson(asteroidCollision(arr)));
-    }
 }

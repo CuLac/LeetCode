@@ -54,9 +54,4 @@ public class Q852_Peak_Index_in_a_Mountain_Array {
         }
         return mid;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {0,1, 0};
-        System.out.println(peakIndexInMountainArray(arr));
-    }
 }

@@ -97,10 +97,4 @@ public class Q712_Minimum_ASCII_Delete_Sum_for_Two_Strings {
         }
         return dp[i][j] = Math.min(nt, tk);
     }
-
-    public static void main(String[] args) {
-        String a = "sea";
-        String b = "eat";
-        System.out.println();
-    }
 }

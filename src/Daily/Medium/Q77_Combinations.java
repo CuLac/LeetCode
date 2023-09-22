@@ -61,8 +61,4 @@ public class Q77_Combinations {
             combinationUtil(arr, data,i+1, end, index+1, k, res);
         }
     }
-
-    public static void main(String[] args) {
-        System.out.println(new Gson().toJson(combine(4, 2)));
-    }
 }

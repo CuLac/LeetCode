@@ -42,10 +42,4 @@ public class Q859_Buddy_Strings {
 
         return s.equals(goal);
     }
-
-    public static void main(String[] args) {
-        String s = "ab";
-        String goal = "ab";
-        System.out.println(buddyStrings(s, goal));
-    }
 }

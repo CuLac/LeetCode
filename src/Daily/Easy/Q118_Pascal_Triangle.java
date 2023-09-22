@@ -48,9 +48,4 @@ public class Q118_Pascal_Triangle {
         }
         return res;
     }
-
-    public static void main(String[] args) {
-        int numRows = 5;
-        System.out.println(generate(numRows));
-    }
 }

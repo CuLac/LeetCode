@@ -25,16 +25,16 @@ import com.google.gson.Gson;
 public class Q86_Partition_List {
     public static class ListNode {
         int val;
-        ListNode next;
+        public ListNode next;
 
-        ListNode() {
+        public ListNode() {
         }
 
-        ListNode(int val) {
+        public ListNode(int val) {
             this.val = val;
         }
 
-        ListNode(int val, ListNode next) {
+        public ListNode(int val, ListNode next) {
             this.val = val;
             this.next = next;
         }
@@ -61,25 +61,5 @@ public class Q86_Partition_List {
         before_curr.next = after.next;
 
         return before.next;
-    }
-
-    public static void main(String[] args) {
-        ListNode node = new ListNode(10);
-        ListNode node2 = new ListNode(20);
-        ListNode node3 = new ListNode(30);
-        ListNode head = null;
-        node.next = node2;
-        node2.next = node3;
-        System.out.println(new Gson().toJson(node));
-        while (node.next != null) {
-            if (node.val >= 20) {
-                head = node;
-            }
-            node = node.next;
-        }
-        System.out.println(new Gson().toJson(node));
-        System.out.println(new Gson().toJson(head));
-
-        ListNode nodeTest = new ListNode(10);
     }
 }

@@ -87,9 +87,4 @@ public class Q2141_Maximum_Running_Time_of_N_Computers {
         }
         return sum >= target;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {1,1,1,1};
-        System.out.println(maxRunTime(2, arr));
-    }
 }

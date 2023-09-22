@@ -71,10 +71,4 @@ public class Q1870_Minimum_Speed_to_Arrive_on_Time {
         System.out.println(speed + "|" + time);
         return hour >= time;
     }
-
-    public static void main(String[] args) {
-        int [] dist = {3,3};
-        double hour = 2;
-        System.out.println(minSpeedOnTime(dist, hour));
-    }
 }

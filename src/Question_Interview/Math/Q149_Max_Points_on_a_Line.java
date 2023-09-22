@@ -56,7 +56,8 @@ Finally, the code returns the maximum number of collinear points, ans.
  */
 
 
-public class Q149_Max_Points_on_a_Line {
+public class
+Q149_Max_Points_on_a_Line {
     public int maxPoints(int[][] points) {
         // n is the number of points in the array
         int n = points.length;
