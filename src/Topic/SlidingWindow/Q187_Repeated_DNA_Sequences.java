@@ -25,10 +25,26 @@ Output: ["AAAAAAAAAA"]
  */
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Q187_Repeated_DNA_Sequences {
     public List<String> findRepeatedDnaSequences(String s) {
-        return new ArrayList<>();
+        List<String> res = new ArrayList<>();
+        Set<String> resset = new HashSet<>();
+        if (s == null || s.length() <= 10) {
+            return res;
+        }
+        Set<String> set = new HashSet<>();
+        int len = s.length();
+        for (int i = 0; i <= len - 10; i++) {
+            String sub = s.substring(i, i + 10);
+            if (!set.add(sub)) {
+                resset.add(sub);
+            }
+        }
+        res.addAll(resset);
+        return res;
     }
 }
