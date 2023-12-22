@@ -78,11 +78,5 @@ public class Q18_4Sum {
         int [] arr = {1,0,-1,0,-2,2};
         int target = 0;
         System.out.println(new Gson().toJson(fourSum(arr, target)));
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhập mảng: ");
-        if (scanner.hasNextLine()) {
-            String str = scanner.next();
-            System.out.println(str);
-        }
     }
 }

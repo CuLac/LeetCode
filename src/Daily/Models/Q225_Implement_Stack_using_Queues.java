@@ -1,4 +1,4 @@
-package Daily.Easy;
+package Daily.Models;
 
 /*
 
