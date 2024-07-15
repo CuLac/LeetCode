@@ -63,9 +63,4 @@ public class Q209_Minimum_Size_Subarray_Sum {
 
         return res == Integer.MAX_VALUE ? 0 : res;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {1,2,3,4,5};
-        System.out.println(minSubArrayLen(11,arr));
-    }
 }

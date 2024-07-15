@@ -35,9 +35,4 @@ public class Q343_Integer_Break {
         else
             return 2 * (int) Math.pow(3, n/3);
     }
-
-    public static void main(String[] args) {
-        int n = 12;
-        System.out.println(integerBreak(n));
-    }
 }

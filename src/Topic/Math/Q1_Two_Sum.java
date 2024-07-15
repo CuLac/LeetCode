@@ -50,9 +50,4 @@ public class Q1_Two_Sum {
         }
         return new int[2];
     }
-
-    public static void main(String[] args) {
-        int [] arr = {2,7,11,15};
-        System.out.println(new Gson().toJson(twoSum(arr, 9)));
-    }
 }

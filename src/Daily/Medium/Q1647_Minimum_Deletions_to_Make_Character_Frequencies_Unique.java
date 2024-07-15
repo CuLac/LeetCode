@@ -62,9 +62,4 @@ public class Q1647_Minimum_Deletions_to_Make_Character_Frequencies_Unique {
         return res;
 
     }
-
-    public static void main(String[] args) {
-        String s = "bbcebab";
-        System.out.println(minDeletions(s));
-    }
 }

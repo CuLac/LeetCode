@@ -43,9 +43,4 @@ public class Q260_Single_Number_III {
 
         return new int[] {a, res ^ a};
     }
-
-    public static void main(String[] args) {
-        int [] arr = {0,1,0,1,0,1,99};
-        System.out.println(singleNumber(arr));
-    }
 }

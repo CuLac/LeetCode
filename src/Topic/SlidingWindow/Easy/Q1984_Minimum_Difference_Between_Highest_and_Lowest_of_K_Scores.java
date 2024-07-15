@@ -50,9 +50,4 @@ public class Q1984_Minimum_Difference_Between_Highest_and_Lowest_of_K_Scores {
         }
         return res;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {9,4,1,7};
-        System.out.println(minimumDifference(arr, 3));
-    }
 }

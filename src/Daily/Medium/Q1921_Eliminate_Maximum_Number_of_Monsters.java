@@ -65,11 +65,4 @@ public class Q1921_Eliminate_Maximum_Number_of_Monsters {
         }
         return dist.length;
     }
-
-    public static void main(String[] args) {
-        int [] dist = {4,3,4};
-        int [] speed = {1,1,2};
-        int res = eliminateMaximum(dist, speed);
-        System.out.println("Res=" + res);
-    }
 }

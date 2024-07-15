@@ -60,9 +60,4 @@ public class Q56_Merge_Intervals {
         result.add(new int[] {start + min, end + min});
         return result.toArray(new int[result.size()][]);
     }
-
-    public static void main(String[] args) {
-        int [][] arr = {{1,3},{2,6},{8,10},{15,18}};
-        merge(arr);
-    }
 }

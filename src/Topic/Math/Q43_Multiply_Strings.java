@@ -68,10 +68,4 @@ public class Q43_Multiply_Strings {
         }
         return stb.toString();
     }
-
-    public static void main(String[] args) {
-        String a = "123";
-        String b = "456";
-        System.out.println(multiply(a, b));
-    }
 }

@@ -101,9 +101,4 @@ public class Q224_Basic_Calculator {
         if(number != 0) result += sign * number;
         return result;
     }
-
-    public static void main(String[] args) {
-        String s = "(1+(4+5+2)-3)+(6+8)";
-        System.out.println(calculate(s));
-    }
 }

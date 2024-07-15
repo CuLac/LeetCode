@@ -66,9 +66,4 @@ public class Q151_Reverse_Words_in_a_String {
         System.out.println(result);
         return result;
     }
-
-    public static void main(String[] args) {
-        String s = "a good   example";
-        reverseWords(s);
-    }
 }

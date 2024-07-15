@@ -56,9 +56,4 @@ public class Q338_Counting_Bits {
         }
         return f;
     }
-
-    public static void main(String[] args) {
-        int n = 10;
-        System.out.println(new Gson().toJson(countBits(n)));
-    }
 }

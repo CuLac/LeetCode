@@ -43,9 +43,4 @@ public class Q643_Maximum_Average_Subarray_I {
         }
         return (double) max/k;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {4,2,1,3,3};
-        findMaxAverage(arr, 2);
-    }
 }

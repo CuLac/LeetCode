@@ -71,9 +71,4 @@ public class Q2024_Maximize_the_Confusion_of_an_Exam {
         }
         return res;
     }
-
-    public static void main(String[] args) {
-        String ans = "TTFF";
-        System.out.println(maxConsecutiveAnswers(ans, 2));
-    }
 }

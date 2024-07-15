@@ -56,12 +56,6 @@ public class Q203_Remove_Colored_Pieces_if_Both_Neighbors_are_the_Same_Color {
                 numbB++;
             }
         }
-        System.out.println("NumbA=" + numbA + "|NumbB=" + numbB);
         return numbA > numbB;
-    }
-
-    public static void main(String[] args) {
-        String color = "ABBBBBBBAAA";
-        winnerOfGame(color);
     }
 }

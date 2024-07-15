@@ -111,18 +111,4 @@ public class Q105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal {
         node.right = build(preorder, inorder, stop);
         return node;
     }
-
-    public static void main(String[] args) {
-        int[] inorder = { 4, 2, 1, 7, 5, 8, 3, 6 };
-        int[] preorder = { 1, 2, 4, 3, 5, 7, 8, 6 };
-
-        TreeNode root = construct(inorder, preorder);
-
-        // traverse the constructed tree
-        System.out.print("The inorder traversal is ");
-        inorderTraversal(root);
-
-        System.out.print("\nThe preorder traversal is ");
-        preorderTraversal(root);
-    }
 }

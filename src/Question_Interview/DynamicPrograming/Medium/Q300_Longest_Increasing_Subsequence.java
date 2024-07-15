@@ -76,7 +76,23 @@ public class Q300_Longest_Increasing_Subsequence {
         return max;
     }
 
-    public static void main(String[] args) {
-        int i = Arrays.binarySearch(new int[10], 0, 10, 5);
+    public int lengthOfLIS_v2(int[] nums) {
+        int n = nums.length;
+        int[] tails = new int[n];
+        int size = 0, a = 0, b = 0;
+        for (int i = 0; i < n; i++) {
+            int x = nums[i];
+            a = 0; b = size;
+            while (a != b) {
+                int m = (a + b) >> 1;
+                if (tails[m] < x)
+                    a = m + 1;
+                else
+                    b = m;
+            }
+            tails[a] = x;
+            if (a == size) ++size;
+        }
+        return size;
     }
 }

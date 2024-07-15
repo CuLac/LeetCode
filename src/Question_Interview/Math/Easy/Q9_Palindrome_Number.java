@@ -45,9 +45,4 @@ public class Q9_Palindrome_Number {
         }
         return origin == res;
     }
-
-    public static void main(String[] args) {
-        int x = 121;
-        System.out.println(isPalindrome(x));
-    }
 }

@@ -59,9 +59,4 @@ public class Q135_Candy {
         }
         return sum;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {1,0,2};
-        System.out.println(candy(arr));
-    }
 }

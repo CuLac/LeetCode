@@ -80,9 +80,4 @@ public class Q55_Jump_Game {
         System.out.println("||"+currIndex);
         return ans;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {3,2,1,1,2,4};
-        System.out.println(canJump(arr));
-    }
 }

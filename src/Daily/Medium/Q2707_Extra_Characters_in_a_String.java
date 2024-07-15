@@ -127,10 +127,4 @@ public class Q2707_Extra_Characters_in_a_String {
 
         return dp[0];
     }
-
-    public static void main(String[] args) {
-        String s = "leetscode";
-        String [] dictionary = {"leet","code","leetcode"};
-        System.out.println(minExtraChar(s, dictionary));
-    }
 }

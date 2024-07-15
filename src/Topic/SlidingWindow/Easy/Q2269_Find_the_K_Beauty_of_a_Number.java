@@ -60,8 +60,4 @@ public class Q2269_Find_the_K_Beauty_of_a_Number {
         res += (num % divisor == 0) ? 1 : 0;
         return res;
     }
-
-    public static void main(String[] args) {
-        divisorSubstrings(4300043, 2);
-    }
 }

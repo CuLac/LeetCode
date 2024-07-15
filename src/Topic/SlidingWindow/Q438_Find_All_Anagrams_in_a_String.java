@@ -151,9 +151,4 @@ public class Q438_Find_All_Anagrams_in_a_String {
 
         return result;
     }
-
-    public static void main(String[] args) {
-        String s = "cbaebabacd", p = "abc";
-        System.out.println(new Gson().toJson(findAnagrams(s, p)));
-    }
 }

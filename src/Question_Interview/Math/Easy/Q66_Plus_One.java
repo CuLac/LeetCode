@@ -56,9 +56,4 @@ public class Q66_Plus_One {
         res[0] = 1;
         return res;
     }
-
-    public static void main(String[] args) {
-        int [] digits = {9};
-        System.out.println(new Gson().toJson(plusOne(digits)));
-    }
 }

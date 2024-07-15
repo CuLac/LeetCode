@@ -55,10 +55,4 @@ public class Q322_Coin_Change {
         System.out.println(new Gson().toJson(dp));
         return dp[amount] == dp.length ? -1 : dp[amount];
     }
-
-    public static void main(String[] args) {
-        int [] coins = {1, 2, 5};
-        int amount = 11;
-        coinChange_v2(coins, amount);
-    }
 }

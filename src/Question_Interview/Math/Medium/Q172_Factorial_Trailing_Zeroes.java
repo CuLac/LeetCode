@@ -60,9 +60,4 @@ public class Q172_Factorial_Trailing_Zeroes {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        int n = 200;
-        System.out.println(trailingZeroes(n));
-    }
 }

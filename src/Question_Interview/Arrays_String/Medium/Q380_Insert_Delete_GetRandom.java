@@ -82,15 +82,4 @@ public class Q380_Insert_Delete_GetRandom {
         System.out.println("Rand=" + rand);
         return nums.get(rand);
     }
-
-    public static void main(String[] args) {
-        Q380_Insert_Delete_GetRandom s = new Q380_Insert_Delete_GetRandom();
-        System.out.println(s.insert(1));
-        System.out.println(s.remove(2));
-        System.out.println(s.insert(2));
-        System.out.println(s.getRandom());
-        System.out.println(s.remove(1));
-        System.out.println(s.insert(2));
-        System.out.println(s.getRandom());
-    }
 }

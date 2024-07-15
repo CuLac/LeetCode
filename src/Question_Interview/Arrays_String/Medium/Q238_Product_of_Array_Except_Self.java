@@ -63,9 +63,4 @@ public class Q238_Product_of_Array_Except_Self {
         System.out.println(new Gson().toJson(ans));
         return ans;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {1,2,3,4,5,6};
-        productExceptSelf(arr);
-    }
 }

@@ -36,9 +36,4 @@ public class Q26_Remove_Duplicates_from_Sorted_Array {
         }
         return k+1;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {1,1,2,2,3};
-        System.out.println(removeDuplicates_v2(arr));
-    }
 }

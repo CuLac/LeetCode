@@ -44,9 +44,4 @@ public class Q1716_Calculate_Money_in_Leetcode_Bank {
         }
         return res;
     }
-
-    public static void main(String[] args) {
-        int n = 20;
-        System.out.println(totalMoney(n));
-    }
 }

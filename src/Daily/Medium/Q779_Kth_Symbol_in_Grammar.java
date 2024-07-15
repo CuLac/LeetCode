@@ -48,20 +48,14 @@ Also notice that the kth value of the index in nth row is:
 
 public class Q779_Kth_Symbol_in_Grammar {
     public static int kthGrammar(int n, int k) {
-        System.out.println("n=" + n + "|k=" + k);
         if(n==1) {
             return 0;
         }
         int parent = kthGrammar(n-1, (k+1)/2);
-        System.out.println("n=" + n + "|k=" + k + "|Parent=" + parent);
         if(k%2 == 0) {
             return parent == 1? 0 : 1;
         } else {
             return parent;
         }
-    }
-
-    public static void main(String[] args) {
-        System.out.println(kthGrammar(4,4));
     }
 }

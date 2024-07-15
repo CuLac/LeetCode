@@ -56,9 +56,4 @@ public class Q122_Best_Time_to_Buy_and_Sell_Stock_II {
         }
         return profit;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {2,4,1};
-        System.out.println(maxProfit(arr));
-    }
 }

@@ -56,10 +56,4 @@ public class Q69_Sqrt_X {
             r = (r + x/r) / 2;
         return (int) r;
     }
-
-    public static void main(String[] args) {
-        int x = 1;
-        x >>= 1;
-        System.out.println(x);
-    }
 }

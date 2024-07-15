@@ -55,14 +55,4 @@ public class Q509_Fibonacci_Number {
         }
         return dp[n];
     }
-
-    public static void main(String[] args) {
-        long start = System.currentTimeMillis();
-        int n = 50;
-        long result = fib_v2(n);
-        System.out.println("Result=" + result + "|Dynamic Programing|Time execute=" + (System.currentTimeMillis() - start) + "ms");
-        start = System.currentTimeMillis();
-        result = fib(n);
-        System.out.println("Result=" + result + "|Recusion|Time execute=" + (System.currentTimeMillis() - start) + "ms");
-    }
 }

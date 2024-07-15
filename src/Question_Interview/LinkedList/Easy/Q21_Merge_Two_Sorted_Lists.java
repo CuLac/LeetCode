@@ -111,12 +111,4 @@ public class Q21_Merge_Two_Sorted_Lists {
             return l2;
         }
     }
-
-
-
-    public static void main(String[] args) {
-        ListNode listNode = new ListNode(1, new ListNode(2, new ListNode(4)));
-        ListNode listNode2 = new ListNode(1, new ListNode(3, new ListNode(4)));
-        System.out.println(new Gson().toJson(mergeTwoLists_v2(listNode, listNode2)));;
-    }
 }

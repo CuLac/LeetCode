@@ -51,8 +51,4 @@ public class Q880_Decoded_String_at_Index {
         }
         return "";
     }
-
-    public static void main(String[] args) {
-
-    }
 }

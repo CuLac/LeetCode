@@ -35,9 +35,4 @@ public class Q67_Add_Binary {
         if (carry != 0) sb.append(carry);
         return sb.reverse().toString();
     }
-
-    public static void main(String[] args) {
-        String a = "1010", b = "1011";
-        System.out.println(addBinary(a, b));
-    }
 }

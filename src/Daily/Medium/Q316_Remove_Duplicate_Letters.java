@@ -59,9 +59,4 @@ public class Q316_Remove_Duplicate_Letters {
         }
         return stb.reverse().toString();
     }
-
-    public static void main(String[] args) {
-        String s = "cbacdcbc";
-        System.out.println(removeDuplicateLetters(s));
-    }
 }

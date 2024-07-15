@@ -108,9 +108,4 @@ public class Q6_Zigzag_Conversion {
         }
         return sb.toString();
     }
-
-    public static void main(String[] args) {
-        String s = "PAYPALISHIRING";
-        convert(s, 3);
-    }
 }

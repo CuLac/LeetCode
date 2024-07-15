@@ -54,10 +54,4 @@ public class Q3_Longest_Substring_Without_Repeating_Characters {
         }
         return ans;
     }
-
-    public static void main(String[] args) {
-        String s = "abba";
-        System.out.println(lengthOfLongestSubstring(s));
-    }
-
 }

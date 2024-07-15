@@ -51,13 +51,4 @@ public class Q125_Valid_Palindrome {
         String s2 = new StringBuilder(s1).reverse().toString();
         return s2.equals(s1);
     }
-
-    public static void main(String[] args) {
-        String s = "A man, a plan, a canal: Panama ";
-        long start = System.currentTimeMillis();
-        System.out.println(isPalindrome(s));
-        System.out.println("Time execute v1: " + (System.currentTimeMillis() - start) + " ms");
-        start = System.currentTimeMillis();
-        System.out.println("Time execute v2: " + (System.currentTimeMillis() - start) + " ms");
-    }
 }

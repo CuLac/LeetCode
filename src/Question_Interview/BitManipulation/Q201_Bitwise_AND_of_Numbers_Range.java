@@ -28,6 +28,7 @@ Output: 0
 
 public class Q201_Bitwise_AND_of_Numbers_Range {
     public int rangeBitwiseAnd(int left, int right) {
-        return 0;
+        while (right > left) right &= right - 1;
+        return right;
     }
 }

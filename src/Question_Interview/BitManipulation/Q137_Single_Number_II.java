@@ -80,9 +80,4 @@ public class Q137_Single_Number_II {
 
         return -1;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {0,1,0,1,0,1,99};
-        System.out.println(singleNumber_v2(arr));
-    }
 }

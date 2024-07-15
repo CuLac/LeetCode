@@ -35,9 +35,4 @@ public class Q80_Remove_Duplicates_from_Sorted_Array_II {
         System.out.println(new Gson().toJson(nums));
         return nextPos + 1;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {0,0,1,1,1,1,2,3,3};
-        System.out.println(new Gson().toJson(removeDuplicates(arr)));
-    }
 }

@@ -84,9 +84,4 @@ public class Q1_Two_Sum {
 
         return new int[]{}; // No solution found
     }
-
-    public static void main(String[] args) {
-        int [] arr = {3, 3};
-        twoSum_v2(arr, 6);
-    }
 }

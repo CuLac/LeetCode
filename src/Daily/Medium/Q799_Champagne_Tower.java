@@ -75,8 +75,4 @@ public class Q799_Champagne_Tower {
 
         return Math.min(1.0, tower[query_row][query_glass]);
     }
-
-    public static void main(String[] args) {
-        System.out.println(champagneTower(7 , 3, 2));
-    }
 }

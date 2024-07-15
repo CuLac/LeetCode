@@ -49,9 +49,4 @@ public class Q1637_Widest_Vertical_Area_Between_Two_Points_Containing_No_Points 
         }
         return diff;
     }
-
-    public static void main(String[] args) {
-        int [][] points = {{8,7}, {9,9},{7,4},{9,7}};
-        System.out.println(maxWidthOfVerticalArea(points));
-    }
 }

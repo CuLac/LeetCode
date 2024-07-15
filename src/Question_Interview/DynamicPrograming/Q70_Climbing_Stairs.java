@@ -43,9 +43,4 @@ public class Q70_Climbing_Stairs {
         }
         return dp[n-1];
     }
-
-    public static void main(String[] args) {
-        int n = 2;
-        System.out.println(climbStairs(n));
-    }
 }

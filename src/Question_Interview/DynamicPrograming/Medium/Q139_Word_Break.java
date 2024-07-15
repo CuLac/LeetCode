@@ -99,10 +99,4 @@ public class Q139_Word_Break {
 
         return f[s.length()];
     }
-
-    public static void main(String[] args) {
-        String s = "goalspecial";
-        List<String> wordDict = Arrays.asList("go","goal","goals","special");
-        System.out.println(wordBreak(s, wordDict));
-    }
 }

@@ -97,10 +97,4 @@ public class Q424_Longest_Repeating_Character_Replacement {
         }
         return maxlen;      // Return the maximum length of repeating character...
     }
-
-    public static void main(String[] args) {
-        String s = "ABBB";
-        int k = 2;
-        System.out.println(characterReplacement(s, k));
-    }
 }

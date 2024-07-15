@@ -103,9 +103,4 @@ public class Q34_Find_First_and_Last_Position_of_Element_in_Sorted_Array {
         }
         return new int[]{start, firstGreaterEqual_v2(A, target + 1) - 1};  //tang target thêm 1 đơn vị --> giá trị thu được là vị trí đầu tiên của cạnh giá trị cuối cùng của target(nên cần -1 khi trả về kết quả)
     }
-
-    public static void main(String[] args) {
-        int [] arr = {5,7,7,8,8,10};
-        System.out.println(new Gson().toJson(firstGreaterEqual(arr, 8)));
-    }
 }

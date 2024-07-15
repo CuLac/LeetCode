@@ -73,10 +73,4 @@ public class Q18_4Sum {
         }
         return res;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {1,0,-1,0,-2,2};
-        int target = 0;
-        System.out.println(new Gson().toJson(fourSum(arr, target)));
-    }
 }

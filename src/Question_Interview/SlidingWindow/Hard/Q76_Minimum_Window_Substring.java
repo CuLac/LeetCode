@@ -82,9 +82,4 @@ public class Q76_Minimum_Window_Substring {
 
         return minLen == Integer.MAX_VALUE ? "" : new String(chS, startIndex, minLen);
     }
-
-    public static void main(String[] args) {
-        String s = "ADOBECODEBANC", t = "ABC";
-        minWindow(s, t);
-    }
 }

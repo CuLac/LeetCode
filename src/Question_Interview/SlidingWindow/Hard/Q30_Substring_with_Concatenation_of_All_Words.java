@@ -127,10 +127,4 @@ public class Q30_Substring_with_Concatenation_of_All_Words {
         // Return the list of indices
         return indices;
     }
-
-    public static void main(String[] args) {
-        String s = "barfoothefoobarman";
-        String [] arr = {"bar","foo","the"};
-        System.out.println(findSubstring(s, arr));
-    }
 }

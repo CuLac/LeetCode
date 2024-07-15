@@ -77,9 +77,4 @@ public class Q1512_Number_of_Good_Pairs {
         }
         return count;
     }
-
-    public static void main(String[] args) {
-        int [] arr = {1,2,3,1,1,3};
-        System.out.println(numIdenticalPairs(arr));
-    }
 }
